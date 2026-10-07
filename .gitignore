@@ -1,0 +1,131 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# ============================================================
+# Jupyter
+# ============================================================
+
+.ipynb_checkpoints/
+
+# ============================================================
+# IDE
+# ============================================================
+
+.vscode/
+.idea/
+
+# ============================================================
+# Environment / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Logs / Temporary files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+
+# ============================================================
+# Raw / Large Datasets
+# ============================================================
+
+data/
+raw_data/
+Transaction data/
+FPS location data/
+card_status data/
+*.zip
+
+# ============================================================
+# Large Processed Datasets
+# ============================================================
+
+data_processed/*.csv
+
+# ============================================================
+# Large ML Datasets
+# ============================================================
+
+output/pds_ml_dataset.csv
+output/pds_ml_train.csv
+output/pds_ml_test.csv
+
+output/pds_future_ml_dataset.csv
+output/pds_future_ml_train.csv
+output/pds_future_ml_test.csv
+
+output/pds_corrected_future_ml_dataset.csv
+
+output/pds_final_future_ml_dataset.csv
+output/pds_final_future_ml_train.csv
+output/pds_final_future_ml_test.csv
+
+# ============================================================
+# Large Prediction Files
+# ============================================================
+
+output/*_predictions.csv
+
+# ============================================================
+# Other Large Outputs
+# ============================================================
+
+output/isolation_forest_shop_anomalies.csv
+output/shop_summary.csv
+
+# ============================================================
+# Keep Selected Final Output Files
+# ============================================================
+
+!output/anomaly_method_comparison.csv
+!output/anomaly_method_summary.csv
+!output/district_anomaly_summary.csv
+!output/high_priority_anomalous_shops.csv
+!output/isolation_forest_district_summary.csv
+!output/multi_method_district_summary.csv
+!output/multi_method_high_priority_shops.csv
+!output/four_method_anomalous_shops.csv
+!output/four_method_district_summary.csv
+
+!output/final_future_logistic_metrics.csv
+!output/final_future_random_forest_metrics.csv
+!output/final_future_random_forest_feature_importance.csv
+!output/final_future_xgboost_metrics.csv
+!output/final_future_xgboost_feature_importance.csv
+
+# ============================================================
+# Operating System
+# ============================================================
+
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Editor Backup Files
+# ============================================================
+
+*~
+*.swp
+*.swo
+
+# ============================================================
+# Streamlit Secrets
+# ============================================================
+
+.streamlit/secrets.toml

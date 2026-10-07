@@ -1,0 +1,5 @@
+method,anomalous_shops
+Transaction IQR,910
+Transaction/Ration Card IQR,958
+Rice/Transaction IQR,267
+Isolation Forest,875

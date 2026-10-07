@@ -1,0 +1,10 @@
+column,unique_values,data_type
+month,12,int64
+year,3,int64
+rcStateAay,10,float64
+unitsStateAay,16,float64
+units,1,float64
+gasCylinders,1,float64
+rgdal,1,float64
+fpsStatus,1,str
+fpsType,1,str
